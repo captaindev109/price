@@ -130,9 +130,15 @@
                         <i class="fa fa-question-circle"></i>
                     </p>
                     <div class="divider"></div>
-                    <div class="input-field" >
+                    <div class="input-field">
                         <label for="monthlyInvestment">Select monthly investment</label>
-                        <input id="monthlyInvestment" type="text" value="$ 50.00" name="monthlyInvestment">
+                        <div style="position: relative; color: var(--color-black)">
+                            <input id="monthlyInvestment" type="number" value="50.00" name="monthlyInvestment" style="padding-left: 25px;">
+                            <div style="position: absolute; width: 100%; height: 100%; top: 0px; display: flex; justify-content: space-between; align-items: center; padding: 0px 10px; padding-right: 40px; pointer-events: none;">
+                                <div>$</div>
+                                <div>/month</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -141,8 +147,8 @@
                     Estimated<br>Monthly Budget
                 </p>
                 <img src="./img/pig_icon.png" alt="pig icon" />
-                <p style="font-weight: 700; font-size: 75px; line-height: 110%; letter-spacing: -0.01em; padding-top: 8px;">
-                   $142.98
+                <p style="font-weight: 700; font-size: 75px; line-height: 110%; letter-spacing: -0.01em; padding-top: 8px;" id="result">
+                   $95.87
                 </p>
                 <p style="font-weight: 400; font-size: 44px; line-height: 110%; letter-spacing: -0.01em; padding-top: 8px; margin-bottom: 110px;">
                    /month
