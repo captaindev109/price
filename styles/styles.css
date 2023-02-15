@@ -39,7 +39,7 @@ body {
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
-  width: 1440px;
+  width: 100%;
 }
 
 a {
@@ -55,6 +55,7 @@ header {
   overflow: hidden;
   padding: 0 !important;
   background-image: url('../img/header.png');
+  background-size: cover;
 }
 
 section {
@@ -289,12 +290,12 @@ input, label {
 .payment .plan{
   float: left;
   height: 850px;
-  width: 960px;
+  width: 70%;
   background-color: #D9DCE0;
 }
 
 .payment .budget {
-  width: 480px;
+  width: 30%;
   float: left;
   height: 850px;
   background: linear-gradient(90deg, #5767F1 0%, #0078D4 100%);
@@ -434,6 +435,7 @@ input, label {
   height: 650px;
   padding-top: 125px;
   text-align: center;
+  background-size: cover;
 }
 
 #enroll_btn {
